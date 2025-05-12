@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-infinite-scroll {
+    animation: infinite-scroll var(--animation-duration, 40s) linear infinite;
+    animation-direction: var(--animation-direction, forwards);
+  }
+  @keyframes infinite-scroll {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+} 

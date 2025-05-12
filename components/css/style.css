@@ -1,0 +1,40 @@
+@keyframes auroraRay1 {
+  0%, 100% { transform: translate(0, 0) scaleX(1) rotate(12deg); }
+  20% { transform: translate(-20px, -30px) scaleX(1.05) rotate(12deg); }
+  50% { transform: translate(30px, 20px) scaleX(0.97) rotate(12deg); }
+  80% { transform: translate(-10px, -10px) scaleX(1.03) rotate(12deg); }
+}
+@keyframes auroraRay2 {
+  0%, 100% { transform: translate(0, 0) scaleY(1) rotate(-6deg); }
+  20% { transform: translate(30px, 40px) scaleY(1.08) rotate(-6deg); }
+  50% { transform: translate(-40px, -30px) scaleY(0.95) rotate(-6deg); }
+  80% { transform: translate(10px, 10px) scaleY(1.03) rotate(-6deg); }
+}
+@keyframes auroraRay3 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(3deg); }
+  20% { transform: translate(-30px, -20px) scale(1.1) rotate(3deg); }
+  50% { transform: translate(40px, 30px) scale(0.95) rotate(3deg); }
+  80% { transform: translate(-10px, -10px) scale(1.03) rotate(3deg); }
+}
+@keyframes auroraRay4 {
+  0%, 100% { transform: translate(0, 0) scaleX(1) rotate(-12deg); }
+  20% { transform: translate(-30px, 30px) scaleX(0.97) rotate(-12deg); }
+  50% { transform: translate(20px, -20px) scaleX(1.05) rotate(-12deg); }
+  80% { transform: translate(-10px, 10px) scaleX(1.02) rotate(-12deg); }
+}
+@keyframes auroraRay5 {
+  0%, 100% { transform: translate(0, 0) scaleX(1) rotate(6deg); }
+  20% { transform: translate(20px, -20px) scaleX(1.08) rotate(6deg); }
+  50% { transform: translate(-30px, 30px) scaleX(0.95) rotate(6deg); }
+  80% { transform: translate(10px, -10px) scaleX(1.03) rotate(6deg); }
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+.aurora-ray1 { animation: auroraRay1 12s ease-in-out infinite alternate; }
+.aurora-ray2 { animation: auroraRay2 16s ease-in-out infinite alternate; }
+.aurora-ray3 { animation: auroraRay3 14s ease-in-out infinite alternate; }
+.aurora-ray4 { animation: auroraRay4 18s ease-in-out infinite alternate; }
+.aurora-ray5 { animation: auroraRay5 20s ease-in-out infinite alternate; } 
