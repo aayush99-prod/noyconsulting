@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "tailwind-landing-page-template"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true
+	}
+}
